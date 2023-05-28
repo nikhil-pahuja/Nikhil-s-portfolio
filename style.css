@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: "Poppins", sans-serif;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  nav ul li {
+    list-style: none;
+    margin: 0 23px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  nav ul li a:hover {
+    color: rgb(129, 129, 194);
+    font-size: 1.02rem;
+  }
+  .left {
+    font-size: 1.5rem;
+  }
+  .firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 180px 0;
+    align-items: center;
+  }
+
+  .firstSection > div {
+    width: 30%;
+  }
+  .leftSection {
+    font-size: 2.77rem;
+  }
+
+  .rightSection img {
+    width: 100%;
+  }
+  .text-purple {
+    color: rgb(158, 89, 222);
+  }
+  #element {
+    font-size: 40px;
+    color: rgb(158, 89, 222);
+  }
+  .secondSection {
+    max-width: 80vw;
+    margin: auto;
+    padding: 30px;
+  }
+  main hr {
+      background: grey;
+      height: 1px;
+      margin: 20px 80px;
+      border: 0;
+  }
+  .secondSection h1{
+    font-size: 2rem;
+  }
+  .text-grey{
+      font-size: 0.9rem;
+      color: grey;
+  }
+  .secondSection .box{
+    background
+  }
+  .experience{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 90px;
+    margin-top: 50px;
+    padding: 10px ;
+    
+}
+  .intern-desc{
+    padding: 30px ;    
+  }
+    main a{
+    text-decoration: none;
+    color: grey;
+    font-size: 0.79rem;
+  }
+  .experience h2{
+    margin-bottom: 10px;
+  }
+
+  .exp1 {
+    background: rgb(54, 15, 86);
+    font-size: 15px;
+    font-weight: 300;
+    border-radius: 17px;
+    padding: 30px;
+    transition: transform 0.4s ease ,background-color 0.4s ease;
+
+    }
+  
+  .exp1:hover{
+    background-color: rgb(0, 0, 33);
+    transform: translateY(-7px);
+  }
+  
+  .btn{
+    padding: 12px;
+    color: white;
+    background: rgb(1, 1, 17);
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 18px;
+    margin: 40px  5px;
+    margin-top: 60px ;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: transform 0.5s,background-color 0.5s ease;
+
+}
+.btn:hover{
+    background-color: grey;
+    transform: translateY(-3px);
+}
+
+/* ----------About------------- */
+
+.sub-tital{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 10vw;
+}
+.aboutSection{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 15rem ;
+    margin-top: 30px;
+}
+.about-pic{
+    width: 80vw;
+
+}
+.about-pic img{
+    margin-left: 180px;
+    margin-top: 30px;
+    border-radius: 20px;
+    width: 400px;
+}
+.about-des{
+    margin: 80px 0px;
+    margin-left: 15px;
+    margin-right: 180px;
+    margin-top: 25px;
+    width: 50vw;
+}
+.about-des p{
+    font-size: 14px;
+}
+
+
+
+/* ----------portfolio------------- */
+
+.Portfolio{
+    max-width: 80vw;
+    margin: auto;
+    padding: 30px;  
+  
+}
+.portfolio{
+    display: grid;
+    grid-gap: 5rem;
+    gap: 2rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    height: auto;
+    width: 100%;
+    max-width: 75vw;
+    margin: 20px;
+   
+}
+.project1{
+    flex-direction: row;
+    gap: 8rem;
+    height: 14em;
+    width: 40rem;
+    padding: 2rem;
+    margin-top: 0px;
+    margin-left: 18vw;
+    margin-right: 13vw;
+
+    background: rgb(54, 15, 86);
+    border-radius: 20px;
+    transition: transform 0.5s,background-color 0.5s ease;
+
+}
+
+
+.img-setup {
+    display: flex;
+    justify-content: space-around;
+}
+.project-img{
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    margin: 10px;
+}
+    
+
+.project1:hover{
+    background-color: rgb(0, 0, 33);
+    transform: translateY(-7px);
+
+}
+.tital-portfolio{
+    font-size: 1.4em;
+}
+
+.project-des{
+    
+    margin-top: 10px;
+}
+
+.project-img img{
+    width: 320px;
+    height: 225;
+    border-radius: 20px;
+
+}
+
+.project-des p {
+    margin-top: 20px;
+    max-width: 300px;
+    font-size: 15px;    
+    text-align: center;
+    }
+
+.project-des h3 {
+    text-align: center;
+   
+}
+.language-btn{
+    padding: 8px;
+    color: white;
+    background: rgb(0, 0, 33);
+    font-size: 12px;
+    margin: 40px 0;
+    margin-top: 20px ;  
+    margin-bottom: 20px;
+    border: 2px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgb(227, 204, 204);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font: bold;
+
+}
+.portfolio-btns{
+    text-align: center;
+
+}
+
+.github-logo{
+    width: 15%;
+    height: 15%;
+    border-radius: 50px;
+
+}
+.github-code a{
+    display: flex;
+}
+.github-code p{
+margin-top: 3px;
+}
+.github-code{
+    margin-left: 120px;
+}
+
+#contact {
+    display: flex;
+    padding: 20px;
+    margin-bottom: 20rem;
+  }
+  
+  #contact h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    margin-left: 150px;
+  }
+  
+  #contact form {
+    display: grid;
+    margin-top: 100px;
+    margin-left: 9.5rem;
+    width: 40rem;
+    gap: 10px;
+  }
+  
+  #contact label {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  #contact input[type="text"],
+  #contact input[type="email"],
+  #contact textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #contact input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    margin-top: 20px;
+    margin-left: 180px;
+    margin-right: 160px;
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition:background-color 0.5s ease;
+
+  }
+  
+  #contact input[type="submit"]:hover {
+    background-color: rgb(11, 53, 11);
+  }
+  
